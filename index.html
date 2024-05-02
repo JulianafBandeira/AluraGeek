@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/coracao.png" alt="">
+        <h2>AluraGeek</h2>
+    </header>
+
+    <main>
+        <section class="produtos container">
+            <h2>MEUS PRODUTOS:</h2>
+            <div class="divprodutos" data-lista>
+                <!-- <img src="caminho/para/imagem" alt="Imagen del producto">
+                    <div class="card-container--info">
+                        <p>Nome do produto</p>
+                     <div class="card-container--value">
+                        <p>Precio: $XX.XX</p>
+                    <img src="caminho/para/icono-de-eliminacion" alt="Ícone de lixeira">
+                     </div>
+                </div> -->
+            </div>
+        </section>
+
+        <div class="divform" id="divform">
+            <h2>ADICIONAR<br>PRODUTO:</h2>
+            <form action="" data-formulario>
+                <input name="imagem" class="campo__escrita" required placeholder="Endereço da imagem..." id='imagem' data-imagem />
+                <input type="text" placeholder="nome..." data-nome>
+                <input type="number" placeholder="valor..." data-valor>
+                <div class="divbutton">
+                    <button id="guardar" class="guardar" type="submit">Guardar</button>
+                    <button class="limpar">Limpar</button>
+                </div>
+            </form>
+            
+        </div>
+    </main>
+
+    <footer>
+        <section class="secfooter">
+            <img src="img/coracao.png" alt="">
+            <h2>AluraGeek</h2>
+        </section>
+        <div>
+            <p>Desenvolvido por Juliana</p>
+        </div>
+    </footer>
+
+    <script src="js/mostrarProdutos.js" type="module"></script>
+    <script src="js/criarProduto.js" type="module"></script>
+</body>
+
+</html>
