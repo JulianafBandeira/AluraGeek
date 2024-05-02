@@ -6,7 +6,7 @@ function constroiCard(id,imagem, nome, preco) {
     const produto = document.createElement("div");
     produto.className = "card-produto"; 
     produto.innerHTML = `
-        <img class="imgprod" src="${imagem}" alt="Imagen del producto">
+        <img class="imgprod" src="${imagem}" alt="Imagem do produto">
         <div class="card-container--info">
             <p>${nome}</p>
             <div class="preco">
