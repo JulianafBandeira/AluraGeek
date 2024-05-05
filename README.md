@@ -1,6 +1,11 @@
  <h1 align="center">AluraGeek</h1>
- O AluraGeek é um site de produtos que permite o cadastro e exclusão dinâmica dos mesmos, focado na prática de implementação de funções assíncronas e fake APIs.
-
+ 
+ <p>O AluraGeek é um site de produtos que permite o cadastro e exclusão dinâmica dos mesmos, focado na prática de implementação de funções assíncronas e fake APIs.</p>
+ <br>
+<div align='center'>
+ <img src="https://github.com/JulianafBandeira/AluraGeek/assets/74437592/04f8f588-56fa-4617-a745-3bf576e65bee" width="800">
+</div>
+<br>
 <h2>Funcionalidades</h2>
 <strong>Cadastro Dinâmico de Produtos:</strong> Permite aos usuários cadastrar novos produtos de forma interativa e dinâmica.<br>
 <strong>Exclusão de Produtos:</strong> Oferece a funcionalidade de excluir produtos previamente cadastrados.<br>
@@ -9,6 +14,8 @@
 <h2>Tecnologias utilizadas</h2>
 HTML5<br>
 CSS3<br>
+
+
 JavaScript<br>
 JSON Server<br>
 
