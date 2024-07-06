@@ -20,5 +20,5 @@ JavaScript<br>
 JSON Server<br>
 
 <h2>Como Executar o Projeto</h2>
-<strong>Inicie o Json Server:</strong> Execute o seguinte comando no terminal para iniciar o servidor JSON e simular a API:
-<img src="https://github.com/JulianafBandeira/AluraGeek/assets/74437592/e8aba1f8-bcfe-4bee-985f-14767368f386" width="600">
+<strong>Inicie o Json Server:</strong> Execute o seguinte comando no terminal para iniciar o servidor JSON e simular a API:<br>
+json-server db.json
